@@ -4,8 +4,8 @@ public class Task {
 	
 	public int status;            	// 0 for unstarted, 1 for running, 2 for blocked, 3 for aborted, 4 for terminated
 	public int total_time;        	// total running time
-	public int wait_time;		 	// total waiting time
-	public int task_id;			  	// task number of this task
+	public int wait_time;		// total waiting time
+	public int task_id;		// task number of this task
 	public int[] initial_claim;     // initial claim of this task
 	public int[] current_claim;     // record how many units of resource this task currently own
 	public ArrayList<Activity> activity_list; // list of activities
