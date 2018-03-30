@@ -73,7 +73,7 @@ public class Driver {
 				Task cur_task = blocked_q.get(i);
 				Activity cur_act = cur_task.activity_list.get(0);
 				
-				// copy the current task, task queue and available resource for safe stae check
+				// copy the current task, task queue and available resource for safe state check
 				
 				Task test_task = null;
 				int index = cur_task.task_id;
